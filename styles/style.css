@@ -350,6 +350,9 @@
   width: 183px;
   height: 35px;
   left: 0;
+  background-image: url(../images/logo_place_footer.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .footer__author {
@@ -358,14 +361,6 @@
   line-height: 25px;
   font-size: 18px;
   bottom: 0;
-}
-
-.logo__place__footer {
-  background-image: url(../images/logo_place_footer.png);
-  width: 154px;
-  height: 31px;
-  background-size: cover;
-  background-position: center;
 }
 
 .footer__column__heading {
