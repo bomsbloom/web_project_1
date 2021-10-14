@@ -344,7 +344,6 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  flex-basis: 711px;
 }
 
 .logo__place__footer {
@@ -358,19 +357,15 @@
   position: absolute;
   line-height: 25px;
   font-size: 18px;
-  color: white;
   bottom: 0;
-}
-
-.logo {
-  width: 154px;
-  height: 31px;
-  background-size: cover;
-  background-position: center;
 }
 
 .logo__place__footer {
   background-image: url(../images/logo_place_footer.png);
+  width: 154px;
+  height: 31px;
+  background-size: cover;
+  background-position: center;
 }
 
 .footer__column__heading {
