@@ -339,11 +339,13 @@
 }
 
 .footer__column__content__copyright {
-  position: relative;
   flex-basis: 711px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo__place__footer {
@@ -357,7 +359,6 @@
 
 .footer__author {
   color: white;
-  position: absolute;
   line-height: 25px;
   font-size: 18px;
   bottom: 0;
@@ -405,4 +406,9 @@
 
 .social-media {
   padding-left: 10px;
+}
+
+.footer__about {
+  list-style-type: none;
+  padding: 0;
 }
